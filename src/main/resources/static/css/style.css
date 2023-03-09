@@ -1,0 +1,36 @@
+.fit-width {
+    width: fit-content;
+}
+.nav-svg {
+    padding-right: 11%;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.dropdown-toggle {
+    color: black;
+}
+.img-wrap {
+    position: relative;
+  }
+  
+  .img-wrap h1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .img-fluid-reya {
+    max-width: 100%;
+    height: 100%;
+  }
+  a, a:hover { 
+    text-decoration: none; 
+ }
+ .col-md-3point5 {width: 28.75%}
+ .scaleImg {
+  transition: 1s; /* Время эффекта */
+ }
+ .scaleImg:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
+ }
+
