@@ -26,21 +26,21 @@ var footerText = `   <!-- Footer -->
         <!-- Grid column -->
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
           <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">Запчасти</h6>
+          <h6 class="text-uppercase fw-bold mb-4" > <a href="/product" class="text-secondary">Запчасти</h6>
           <p>
-            <a href="#!" class="text-reset">Duplo</a>
+            <a href="/product?type=Duplo" class="text-reset">Duplo</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Riso</a>
+            <a href="/product?type=Riso" class="text-reset">Riso</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Ricoh</a>
+            <a href="/product?type=Ricoh" class="text-reset">Ricoh</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Запчасти для МФУ</a>
+            <a href="/product?type=MfuParts" class="text-reset">Запчасти для МФУ</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Офсетные машины</a>
+            <a href="/product?type=OffsetMachines" class="text-reset">Офсетные машины</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -92,5 +92,5 @@ function setFooter() {
     footer.innerHTML = footerText ;
     document.body.insertAdjacentElement('beforeend', footer );
   }
-  
+
   setFooter();

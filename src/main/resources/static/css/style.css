@@ -33,4 +33,29 @@
  .scaleImg:hover {
   transform: scale(1.2); /* Увеличиваем масштаб */
  }
+ :focus {
+     outline: none !important;
+ }
+
+/*!* unvisited link *!*/
+/*a:link {*/
+/*    color: green !important;*/
+/*}*/
+
+ /*visited link */
+/*a:visited {*/
+/*    color: green;*/
+/*}*/
+
+/* mouse over link */
+a:hover {
+    color: red !important;
+}
+
+/* selected link */
+a:active {
+    color: yellow !important;
+}
+
+
 

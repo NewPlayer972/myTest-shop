@@ -33,14 +33,14 @@ var headerText = `
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="/news">Новости</a>
               </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link active dropdown-toggle" data-bs-toggle="dropdown"  href="#" role="button" aria-expanded="false">Запчасти</a>
+            <li class="nav-item dropdown" href="/product">
+              <a class="nav-link active dropdown-toggle" data-bs-toggle="dropdown"  href="/product" role="button" aria-expanded="false">Запчасти</a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="/duplo">Duplo</a></li>
-                <li><a class="dropdown-item" href="#">Riso</a></li>
-                <li><a class="dropdown-item" href="#">Ricoh</a></li>
-                <li><a class="dropdown-item" href="#">МФУ</a></li>
-                <li><a class="dropdown-item" href="#">Офсетные машины</a></li>
+                <li><a class="dropdown-item" href="/product?type=Duplo">Duplo</a></li>
+                <li><a class="dropdown-item" href="/product?type=Riso">Riso</a></li>
+                <li><a class="dropdown-item" href="/product?type=Ricoh">Ricoh</a></li>
+                <li><a class="dropdown-item" href="/product?type=MfuParts">МФУ</a></li>
+                <li><a class="dropdown-item" href="/product?type=OffsetMachines">Офсетные машины</a></li>
               </ul>
             </li>
             <li class="nav-item">
